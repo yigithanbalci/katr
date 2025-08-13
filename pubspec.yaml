@@ -1,0 +1,20 @@
+name: katr
+description: A NestJS-like framework for Dart on top of Dart Frog.
+version: 0.0.1
+# repository: https://github.com/my_org/my_repo
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+# Add regular dependencies here.
+dependencies:
+  dart_frog: ^0.3.0
+  get_it: ^7.6.4
+  meta: ^1.11.0
+  reflectable: ^4.0.5
+  dotenv: ^4.1.0
+
+dev_dependencies:
+  build_runner: ^2.4.6
+  source_gen: ^1.4.0
+  test: ^1.25.0
